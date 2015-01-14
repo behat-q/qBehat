@@ -4,7 +4,7 @@ default:
       base_url: http://demo.magentocommerce.com
       goutte: ~
       selenium2:
-        browser: chrome
+        browser: firefox
     Behat\JournalExtension\Extension:
       driver: mink # available: mink, webdriver
     Sanpi\Behatch\Extension:
